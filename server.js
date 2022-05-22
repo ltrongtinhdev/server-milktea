@@ -13,7 +13,7 @@ app.use(morgan('dev'))
 
 mongoose.connect(process.env.MONGO_URI)
         .then(() => {
-            console.log('Connect mongodb success')
+            console.log('Connect mongodb success.')
         })
         .catch((e) => {
             console.log(e)
