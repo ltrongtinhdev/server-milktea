@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "pm2 start server.js",
+    "start": "node server.js",
     "stop": "pm2 stop server.js"
   },
   "dependencies": {

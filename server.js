@@ -21,6 +21,6 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 app.use('/products',ProductRouter)
-app.listen(3333, () => {
+app.listen(process.env.PORT, () => {
     console.log('Server running 3333')
 })
